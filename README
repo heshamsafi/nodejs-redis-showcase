@@ -1,0 +1,19 @@
+Pre-requisites : 
+    - nodejs : http://nodejs.org/
+    - redis : http://redis.io/
+    - your favourite editor/IDE. I used vim and bash terminal, you could use a higher level IDE like eclipse with the Nodeclipse plugin installed. http://www.nodeclipse.org/
+    - 3rd party modules i installed using npm (node package manager)
+        - optimist : npmjs.org/package/optimist
+        - redis : npmjs.org/package/redis
+    - tcp client like netcat (nc) or telnet
+    - http client -> curl
+    - apache bench (ab) (optional)
+
+You can find The code that was used in the september 25th presentation here.
+each program is heavily commented and associated with a shell script (.sh file) that shows how it should be used.
+remember : the point of the presentation wasn't to make a chat server. but it was to show you that nodejs is great for building scalable, data-intensive applications because it handles concurrency exceptionally well, which makes it a perfect tool for building a cloud infrastructure, and to also show how to use redis as a tool for inter-process communication on a network and to scale applications using redis's pubsub capabilites, and to show how to implement a reverse proxy to balance the load on the servers.
+if you wish to communicate with me.
+here is my email : hesham.safi.eldeen@gmail.com
+facebook account : http://www.facebook.com/Hesham.safy
+feel free to ask any questions.
+good luck.
